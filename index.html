@@ -42,6 +42,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
 .statut.aconfirmer { background:#eee; color:#999; }
 .section-title { font-size:0.78rem; font-weight:700; color:#999; margin:16px 2px 6px 2px; padding-top:10px; border-top:1px dashed #ccc; }
 .tbd-group .row { opacity:0.65; }
+.classement-group { background:white; border-radius:10px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,0.08); }
+.crow { display:flex; align-items:center; gap:8px; padding:7px 11px; border-bottom:1px solid #f0f0f0; font-size:0.82rem; }
+.crow:last-child { border-bottom:none; }
+.crow.smuc { background:#1a1a1a; color:#fff; font-weight:700; }
+.crank { font-weight:800; color:#999; min-width:26px; }
+.crow.smuc .crank { color:#ccc; }
+.cteam { flex:1; }
+.cpts { font-weight:700; white-space:nowrap; }
 footer { text-align:center; font-size:0.68rem; color:#999; margin-top:14px; padding-bottom:12px; }
 footer a { color:#999; }
 </style>
@@ -51,7 +59,7 @@ footer a { color:#999; }
   <img src="logo.jpg" alt="Logo SMUC Handball">
   <div class="hero-text">
     <h1>SMUC Handball<br>U15 Pré-Excellence</h1>
-    <div class="updated">Bilan : 4 victoires, 1 défaite<br><em>Mise à jour : 24/11/2026 à 22h05</em></div>
+    <div class="updated">Bilan : 4 victoires, 1 défaite<br><em>Mise à jour : 24/11/2026 à 22h06</em></div>
   </div>
 </div>
 <div class="content">
@@ -256,7 +264,11 @@ footer a { color:#999; }
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
 </div>
-<footer>Suivi automatique des matchs de Patxi</footer>
+<div class="section-title">🏆 Classement du championnat</div>
+<div class="classement-group">
+<div class="crow"><span class="crank">#1</span><span class="cteam">Chateauneuf Handball</span><span class="cpts">15 pts</span></div><div class="crow smuc"><span class="crank">#2</span><span class="cteam">SMUC Handball</span><span class="cpts">13 pts</span></div><div class="crow"><span class="crank">#3</span><span class="cteam">APHB Eyguieres Club</span><span class="cpts">13 pts</span></div><div class="crow"><span class="crank">#4</span><span class="cteam">CAUZ Handball</span><span class="cpts">11 pts</span></div><div class="crow"><span class="crank">#5</span><span class="cteam">PAUC</span><span class="cpts">11 pts</span></div><div class="crow"><span class="crank">#6</span><span class="cteam">Handball Club Senassais</span><span class="cpts">9 pts</span></div><div class="crow"><span class="crank">#7</span><span class="cteam">Handball Club Fosseen</span><span class="cpts">9 pts</span></div><div class="crow"><span class="crank">#8</span><span class="cteam">Istres Provence Handball</span><span class="cpts">7 pts</span></div><div class="crow"><span class="crank">#9</span><span class="cteam">ASPTT Marseille</span><span class="cpts">7 pts</span></div><div class="crow"><span class="crank">#10</span><span class="cteam">Pays Aubagne Handball 1</span><span class="cpts">5 pts</span></div>
+</div>
+<footer>Suivi automatique des matchs</footer>
 </div>
 </body>
 </html>
