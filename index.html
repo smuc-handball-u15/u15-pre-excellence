@@ -33,10 +33,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
 .row-date { display:flex; align-items:center; justify-content:space-between; gap:6px; }
 .meta { font-size:0.73rem; color:#777; }
 .meta a.fflink { color:#1a1a1a; text-decoration:none; font-weight:600; }
-.score { display:inline-block; padding:1px 9px; border-radius:6px; font-size:0.8rem; white-space:nowrap; font-weight:700; }
+.pill { display:inline-block; min-width:94px; text-align:center; padding:4px 10px; border-radius:6px; font-size:0.76rem; font-weight:700; white-space:nowrap; box-sizing:border-box; }
 .score.win { background:#1a1a1a; color:#ffffff; }
 .score.loss { background:#e2e2e2; color:#1a1a1a; }
-.statut { display:inline-block; font-size:0.68rem; padding:1px 7px; border-radius:5px; white-space:nowrap; font-weight:600; }
 .statut.joue { background:#1a1a1a; color:#fff; }
 .statut.confirme { background:#cfcfcf; color:#1a1a1a; }
 .statut.aconfirmer { background:#eee; color:#999; }
@@ -59,7 +58,7 @@ footer a { color:#999; }
   <img src="logo.jpg" alt="Logo SMUC Handball">
   <div class="hero-text">
     <h1>SMUC Handball<br>U15 Pré-Excellence</h1>
-    <div class="updated">Bilan : 4 victoires, 1 défaite<br><em>Mise à jour : 24/11/2026 à 22h06</em></div>
+    <div class="updated">Bilan : 4 victoires, 1 défaite<br><em>Mise à jour : 24/11/2026 à 22h07</em></div>
   </div>
 </div>
 <div class="content">
@@ -70,7 +69,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Cauz Handball</span><span class="advrank">#4</span></span>
-    <span class="score win"><span>✅ </span><span style="">20 - </span><span style="font-weight:800;">25</span></span>
+    <span class="pill score win"><span>✅ </span><span>20 - </span><span>25</span></span>
   </div>
   <div class="venue exterieur">📍 Les 16 Fontaines, Boulevard De La Tuilerie, 83640 St Zacharie</div>
 </div>
@@ -81,7 +80,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Istres Provence Handball</span><span class="advrank">#8</span></span>
-    <span class="score win"><span>✅ </span><span style="">19 - </span><span style="font-weight:800;">40</span></span>
+    <span class="pill score win"><span>✅ </span><span>19 - </span><span>40</span></span>
   </div>
   <div class="venue exterieur">📍 Bernard Bardin, Rue Du Stade, 13800 Istres</div>
 </div>
@@ -92,7 +91,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Chateauneuf Handball</span><span class="advrank">#1🚨</span></span>
-    <span class="score loss"><span>❌ </span><span style="">27 - </span><span style="font-weight:800;">22</span></span>
+    <span class="pill score loss"><span>❌ </span><span>27 - </span><span>22</span></span>
   </div>
   <div class="venue exterieur">📍 La Plaine Des Sports, Route Nationale 568, 13220 Chateauneuf Les Martigues</div>
 </div>
@@ -103,7 +102,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Pays Aubagne Handball 1</span><span class="advrank">#10</span></span>
-    <span class="score win"><span>✅ </span><span style="font-weight:800;">50</span><span style=""> - 24</span></span>
+    <span class="pill score win"><span>✅ </span><span>50</span><span> - 24</span></span>
   </div>
   <div class="venue domicile">📍 Gymnase des Caillols, 66 rue de la Sariette, 13012 Marseille</div>
 </div>
@@ -114,7 +113,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Handball Club Senassais</span><span class="advrank">#6</span></span>
-    <span class="score win"><span>✅ </span><span style="">21 - </span><span style="font-weight:800;">30</span></span>
+    <span class="pill score win"><span>✅ </span><span>21 - </span><span>30</span></span>
   </div>
   <div class="venue exterieur">📍 Gymnase de la Capelette, 121 avenue des Jardins, 13560 Senas</div>
 </div>
@@ -125,7 +124,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">APHB Eyguieres Club</span><span class="advrank">#3</span></span>
-    <span class="statut confirme">Confirmé</span>
+    <span class="pill statut confirme">Confirmé</span>
   </div>
   <div class="venue domicile">📍 Gymnase des Caillols, 66 rue de la Sariette, 13012 Marseille</div>
 </div>
@@ -136,7 +135,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Handball Club Fosseen</span><span class="advrank">#7</span></span>
-    <span class="statut confirme">Confirmé</span>
+    <span class="pill statut confirme">Confirmé</span>
   </div>
   <div class="venue exterieur">📍 Salle Jonquière, Bd de Mègle, 13270 Fos-sur-Mer</div>
 </div>
@@ -147,7 +146,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">ASPTT Marseille</span><span class="advrank">#9</span></span>
-    <span class="statut confirme">Confirmé</span>
+    <span class="pill statut confirme">Confirmé</span>
   </div>
   <div class="venue domicile">📍 Gymnase des Caillols, 66 rue de la Sariette, 13012 Marseille</div>
 </div>
@@ -160,7 +159,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">PAUC</span><span class="advrank">#5</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -171,7 +170,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">CAUZ Handball</span><span class="advrank">#4</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -182,7 +181,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Istres Provence Handball</span><span class="advrank">#8</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -193,7 +192,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Chateauneuf Handball</span><span class="advrank">#1🚨</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -204,7 +203,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Pays Aubagne Handball 1</span><span class="advrank">#10</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -215,7 +214,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Handball Club Senassais</span><span class="advrank">#6</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -226,7 +225,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">APHB Eyguieres Club</span><span class="advrank">#3</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -237,7 +236,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">Handball Club Fosseen</span><span class="advrank">#7</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -248,7 +247,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">ASPTT Marseille</span><span class="advrank">#9</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
@@ -259,7 +258,7 @@ footer a { color:#999; }
   </div>
   <div class="row-top">
     <span class="advbadge"><span class="advname">PAUC</span><span class="advrank">#5</span></span>
-    <span class="statut aconfirmer">À confirmer</span>
+    <span class="pill statut aconfirmer">À confirmer</span>
   </div>
   <div class="venue aconfirmer">📍 Lieu à confirmer</div>
 </div>
