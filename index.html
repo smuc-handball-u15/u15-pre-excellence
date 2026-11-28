@@ -19,7 +19,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
 .herolinks { margin-top:6px; }
 .herolinks a { color:#fff; font-size:0.74rem; font-weight:600; text-decoration:none; background:rgba(255,255,255,0.18); padding:4px 10px; border-radius:6px; display:inline-block; }
 .replay-banner { background:#9147ff; text-align:center; padding:10px; }
-.replay-banner a { color:white; font-weight:700; text-decoration:none; font-size:0.9rem; }
+.replay-banner a { color:white; font-weight:700; text-decoration:none; font-size:0.9rem; cursor:pointer; display:inline-block; }
+.replay-banner a:active { opacity:0.7; }
+.banner-link { text-decoration:underline; font-weight:600; opacity:0.95; }
 .replay-banner.live { background:#e0245e; animation:pulse 2s infinite; }
 @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.75; } }
 .content { padding: 0 10px 14px 10px; }
@@ -64,12 +66,12 @@ footer a { color:#999; }
 </style>
 </head>
 <body>
-<div class="replay-banner live"><a href="https://www.twitch.tv/rodsmuc13008" target="_blank">🔴 Match en live</a></div>
+<div class="replay-banner live"><a href="https://www.twitch.tv/rodsmuc13008" target="_blank">🔴 Match en live <span class="banner-link">sur Twitch →</span></a></div>
 <div class="hero">
   <img src="logo.jpg" alt="Logo SMUC Handball">
   <div class="hero-text">
     <h1>SMUC Handball<br>U15 Pré-Excellence</h1>
-    <div class="updated">Bilan : 4 victoires, 1 défaite<br>Forme : ✅✅❌✅✅<br><em>Mise à jour : 28/11/2026 à 16h07</em></div>
+    <div class="updated">Bilan : 4 victoires, 1 défaite<br>Forme : ✅✅❌✅✅<br><em>Mise à jour : 28/11/2026 à 16h13</em></div>
     <div class="herolinks"><a href="#classement">🏆 Voir le classement</a> <a href="#" onclick="navigator.share ? navigator.share({title: 'SMUC Handball U15', url: location.href}) : window.open('https://wa.me/?text=' + encodeURIComponent('SMUC Handball U15 - ' + location.href)); return false;">📤 Partager</a></div>
   </div>
 </div>
